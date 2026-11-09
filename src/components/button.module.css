@@ -1,0 +1,8 @@
+.buttonContainer {
+	display: flex;
+
+	border: 2px solid black;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
