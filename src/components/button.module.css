@@ -1,8 +1,29 @@
 .buttonContainer {
 	display: flex;
-
-	border: 2px solid black;
 	align-items: center;
 	justify-content: center;
 	cursor: pointer;
+
+	border-radius: 6px;
+	color: white;
+
+	p {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+.buttonSymbol {
+	background-color: #2f3338;
+}
+
+.buttonRegular {
+	background-color: #383c41;
+	font-size: 18px;
+}
+
+.buttonEqual {
+	background-color: #abc6d4;
+	color: #2f3338;
+	font-size: 22px;
 }

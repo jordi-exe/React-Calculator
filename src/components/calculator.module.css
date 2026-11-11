@@ -3,10 +3,11 @@
 	flex-direction: column;
 	justify-content: space-between;
 
-	width: 500px;
+	width: 400px;
 	height: 600px;
 
-	border: 2px solid black;
+	background-color: #1c2126;
+	color: white;
 	align-self: center;
 }
 
@@ -16,36 +17,36 @@
 	gap: 2px;
 	height: 30%;
 	margin-top: 20px;
-	border: 1px solid blue;
-
 	text-align: right;
 }
 
 .calculatorInput {
 	height: 30%;
-	border: 1px solid blue;
+	border: 1px solid white;
 }
 
 .calculatorOutput {
 	height: 70%;
-	border: 1px solid blue;
+	border: 1px solid white;
 }
 
 .calculatorBody {
 	display: flex;
-	/* flex: 1; */
+	flex: 1;
 	flex-direction: column;
 	justify-content: space-between;
 
 	margin: 10px;
 
-	border: 1px solid black;
+	/* height: 100%; */
 }
 
 .calculatorButtons {
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	grid-template-rows: repeat(6, 1fr);
-	grid-column-gap: 5px;
-	grid-row-gap: 5px;
+	grid-column-gap: 2px;
+	grid-row-gap: 2px;
+
+	height: 100%;
 }
